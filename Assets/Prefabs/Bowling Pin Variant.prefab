@@ -12,13 +12,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowling Pin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 000749326cbbd406e8698312f1882a37, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69,14 +73,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 9500000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
     - {fileID: 2300000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
+    - {fileID: 9500000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4478429181881860328}
+      addedObject: {fileID: -9182543558924636727}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4287267722810514021}
     - targetCorrespondingSourceObject: {fileID: 100002, guid: 000749326cbbd406e8698312f1882a37, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7967911460806441872}
@@ -113,7 +120,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 000749326cbbd406e8698312f1882a37, type: 3}
   m_PrefabInstance: {fileID: 208801616839285238}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &4478429181881860328
+--- !u!54 &-9182543558924636727
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,3 +147,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4287267722810514021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208801616839188310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2470142d794ef4baeee868b2b28782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
